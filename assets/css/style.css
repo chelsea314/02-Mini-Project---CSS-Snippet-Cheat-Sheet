@@ -1,0 +1,75 @@
+:root {
+    --navyish: #33393f;
+    --pinky: #e866ec;
+    --gin: #e0eae4;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--navyish);
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: var(--gin);
+    font-size: 1.75rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.625rem;
+    color: var(--pinky);
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+  
+h3 {
+    font-size: 3rem;
+}
+  
+h4 {
+    font-size: 2.5rem;
+}
+  
+h5 {
+    font-size: 2rem;
+}
+  
+h6 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}  
+
+header {
+    width: 96%;
+    margin: 0 auto;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+header h1 .page-title {
+    padding: 1rem 1.2rem;
+    font-size: 4.5rem;
+  }
+
+section {
+    display: flex;
+    
+}
+
